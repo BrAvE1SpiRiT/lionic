@@ -369,6 +369,9 @@ h1, h2{
 .footer-nav-link{
 	color:#787878;
 }
+.footer-nav-link:hover{
+	color:#3172b9;
+}
 .footer-social-icon{
 	display: inline-block;
 	background-size: contain;
@@ -380,18 +383,15 @@ h1, h2{
 .footer-social-icon-twitter{
 	width: 18px;
 	height: 15px;
-   background-image: url('../img/twitter.svg')
 }
 .footer-social-icon-in{
 	width: 18px;
 	height: 19px;
-	background-image: url('../img/in.svg');
 	transform: translateY(-2px);
 }
 .footer-social-icon-email{
 	width: 24px;
 	height: 17px;
-	background-image: url('../img/email.svg')
 }
 .footer-social-list{
 	display: flex;
@@ -407,4 +407,8 @@ h1, h2{
 	font-size: 12px;
 	line-height: 17px;
 	color: #787878;
+}
+
+.footer-social-item:hover .cls-1{
+	fill: #3172b9;
 }
