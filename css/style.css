@@ -225,7 +225,7 @@ body {
 	margin-top: 120px;
 	padding-top: 113px;
 	padding-bottom: 134px;
-	background-image: url('/img/hero-bg.jpeg');
+	background-image: url('./img/hero-bg.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -270,7 +270,7 @@ body {
 	color: #787878;
 	line-height: 155%;
 	text-transform: uppercase;
-	background-image: url('/img/ssl-icon.svg');
+	background-image: url('./img/ssl-icon.svg');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 14px 17px;
@@ -601,15 +601,15 @@ body {
 }
 
 .contacts-item-address {
-	background-image: url('/img/location.svg');
+	background-image: url('./img/location.svg');
 }
 
 .contacts-item-call {
-	background-image: url('/img/phone.svg');
+	background-image: url('./img/phone.svg');
 }
 
 .contacts-item-email {
-	background-image: url('/img/email.svg');
+	background-image: url('./img/email.svg');
 }
 
 /* Contacts section end */
